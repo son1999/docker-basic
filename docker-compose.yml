@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+  my-node:
+    build: .
+    container_name: my-node 
+    ports: 
+      - '4001:4000'   
